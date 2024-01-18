@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+body{
+    font-family: 'Oxanium', sans-serif;
+    margin: 0ox;
+    background-color: orange;
+}
+
+.title{
+    font-size: 3rem;
+    display: flex;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.options{
+    font-family: 'Oxanium', sans-serif;
+    background-color: indianred;
+    border: solid indianred 1px;
+    border-radius: 10%;
+    display: flex;
+    height: 15rem;
+    width: 15rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.options:hover{
+    color: greenyellow;
+}
+
+.play_area{
+    display: flex;
+    flex-direction: row;
+    align-items:normal;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5%;
+}
+
+.img{
+    height: 14rem;
+    width: 14rem;
+}
+
+/* ... (other CSS code) ... */
+
+.options:hover {
+    color: greenyellow;
+}
+
+.output {
+    margin: 5%;
+    border: solid 2px black;
+    border-radius: 5%;
+    height: 7rem;
+    width: auto;
+}
+
+/* ... (other CSS code) ... */
